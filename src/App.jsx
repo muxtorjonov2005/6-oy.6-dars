@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, NavLink } from "react-router-dom";
 import ApiMetod from "./pages/ApiMetod";
 import Home from "./pages/Home";
 import Blogs from "./pages/Blogs";
@@ -9,6 +9,10 @@ import MainLayout from "./layouts/MainLayout";
 function App() {
   return (
     <div className="container">
+      <div className="links">
+       <NavLink to='/home' className='link'>Home</NavLink>
+       <NavLink to='/blogs' className='link'>Blogs</NavLink>
+      </div>
 
       <Routes>
         <Route index element={<ApiMetod/>}/>

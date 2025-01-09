@@ -9,8 +9,25 @@ body {
 }
 
 .container {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 100px;
+}
+
+.links {
+    margin: auto;
+    width: 200px;
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+
+.link:hover {
+    color: blue;
 }
