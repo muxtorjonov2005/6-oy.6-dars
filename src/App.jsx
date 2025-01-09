@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="container">
       <div className="links">
+       <NavLink to='/' className='link'>ApiMetod</NavLink>
        <NavLink to='/home' className='link'>Home</NavLink>
        <NavLink to='/blogs' className='link'>Blogs</NavLink>
       </div>
